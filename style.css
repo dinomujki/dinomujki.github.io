@@ -5,7 +5,8 @@ html,body {
 	background-color: white;
 	margin: 0;
    	padding: 0;
-   	font-family:Vollkorn;
+   	font-family:Myriad;
+
 }
 
 .container {
@@ -28,8 +29,8 @@ html,body {
 	text-align: center;
 	left: 10vw;
 	top: 10vh;
-	color: grey;
-	font-size: 100%;
+	color: #595959;
+	font-size: 120%;
 }
 
 #hero img {
@@ -82,10 +83,11 @@ html,body {
 }
 
 .segment {
-	width: 80%;
+	width: 60%;
 	margin: 0 auto;
 	margin-top:4%;
 	margin-bottom: 4%;
+	text-align: center;
 
 }
 
@@ -98,14 +100,19 @@ hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #800000, rgba(0, 0, 0, 0));
-
+    width: 80%;
 }
 
 .q {
 	text-align: center;
 	font-size: 200%;
+	margin-bottom: 30px;
 }
 
+.segment p {
+	font-size: 110%;
+	text-align: justify;
+}
 
 .footer {
 	width: 100%;

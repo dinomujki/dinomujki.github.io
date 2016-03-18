@@ -1,0 +1,123 @@
+html,body {
+	height: 100vh;
+	width: 100vw;
+	font-size: 1em;
+	background-color: white;
+	margin: 0;
+   	padding: 0;
+   	font-family:Vollkorn;
+}
+
+.container {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+#hero {
+	position: relative;
+	background-color: #cc0000;
+	width: 100%;
+	height: auto;
+	max-height: 93.5vh;
+	overflow: hidden;
+}
+
+#tagline{
+	position: absolute;
+	text-align: center;
+	left: 10vw;
+	top: 10vh;
+	color: grey;
+	font-size: 100%;
+}
+
+#hero img {
+	display: block;
+	width: 100vw;
+}
+
+#nav {
+	width: 100%;
+	height: 6.5vh;
+	text-align: center;
+	font-size: 0;
+	border-top: 1px solid black;
+}
+
+#nav hr {
+	display: inline-block;
+	width: 10%;
+}
+
+#nav a{
+	display: inline-block;
+	height: 100%;
+	width: 15%;
+	min-width: 100px;
+	line-height: 6.5vh;
+	font-size: 17px;
+/*	padding-left:3%;
+	padding-right:3%;*/
+	text-decoration: none;
+	text-align: center;
+	color: #800000;
+	border-width: 1px 1px 1px 0px;
+	border-image: linear-gradient(to top, rgba(0, 0, 0, 0), #800000) 1 100%;
+
+}
+
+#nav a:hover {
+	background-color: #800000;
+	color: white;
+}
+
+#nav a#lastlink {
+	border-width: 1px 0px 1px 0px;
+	border-image: linear-gradient(to top, rgba(0, 0, 0, 0), #800000) 1 100%;
+}
+#nav a span {
+	height: 100%;
+	font-size: 1em;
+}
+
+.segment {
+	width: 80%;
+	margin: 0 auto;
+	margin-top:4%;
+	margin-bottom: 4%;
+
+}
+
+#firsty {
+	text-align: center;
+	font-size: 150%;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #800000, rgba(0, 0, 0, 0));
+
+}
+
+.q {
+	text-align: center;
+	font-size: 200%;
+}
+
+
+.footer {
+	width: 100%;
+	bottom: 0px;
+	left:0px;
+	margin-top:200px;
+	text-align: center;
+	font-style: italic;
+	height: 30px;
+	background-color: #800000;
+	color:white;
+	line-height: 30px;
+}
+
+

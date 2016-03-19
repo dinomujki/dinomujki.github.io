@@ -127,4 +127,58 @@ hr {
 	line-height: 30px;
 }
 
+a {
+	text-decoration: none;
+	color: #800000;
+	text-decoration:underline;
+}
+
+#final {
+	margin: 0 auto;
+	width: 80%;
+}
+
+#mband {
+	display: block;
+	width: 100%;
+}
+
+#mband img {
+	display: inline-block;
+	width: 50%;
+}
+
+#mband p {
+	display: inline-block;
+	float: left;
+	vertical-align: text-top;
+	width: 50%;
+	font-size: 130%;
+}
+#creators {
+	text-align: center;
+	margin: 0 auto;
+	width: 70%;
+
+}
+.creator {
+	display: inline-block;
+	width:30%;
+	text-align: center;
+	margin: 1%;
+}
+
+.creator h2 {
+	text-align: center;
+	color: #800000;
+}
+
+.creator {
+	vertical-align: text-top;
+	color:#595959;
+}
+
+.creator p {
+	font-style: italic;
+}
 

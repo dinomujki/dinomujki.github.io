@@ -3,7 +3,6 @@
 <head>
 	<title>What A Joke</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Myriad">
 </head>
 <body>
 
@@ -70,13 +69,129 @@
 		<div class="q">The Punchline</div>
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/BxyCl3LAh2Q" frameborder="0" allowfullscreen></iframe>
 	</div>
+	<hr>
 
+	
+
+		
 	<div id="ourApp" class="segment">
-		<div class="q">Our App</div>
-		help
+		<div class="q"><h2>Our App</h2></div>
+		<hr>
+		<a style="font-size:130%;" href="https://github.com/shawncaeiro/mHealth">Check out our Github repo</a>
+		<hr>
+		<br>
+		<div id="final">
+
+		<div id="mband">
+			<h2>Our Sensor (Microsoft Band 2)</h2>
+			<p>We use the Microsoft Band 2 to collect our data to help you to the best of our ability. The app will connect automatically to your mBand, all you have to do is give us permission to measure your heart beats and you're set.
+			<br>
+			If you don't have one already, you can get it at:
+			<br>
+			<a href="http://www.microsoftstore.com/store/msusa/en_US/pdp/Microsoft-Band-2/productID.324438600">http://www.microsoftstore.com</a></p>
+			<img src="mband2.png" width="300px" height="auto">
+		</div>
+		<br>
+		<div>
+		<h2 style="display:block">System Design</h2>
+		<p>Our system is designed to provide targeted comedy when a person is stressed. We do so by using a Microsoft Band 2 as part of a mobile health system. Overall our system is designed monitor a person's stress level at all times. When a person reaches high levels of stress, our system intervenes with a comedy filled video. The user watches the video with the by-product of calming the user down, decreasing their level of stress. 
+		<br>
+		In order to create this system, focus was placed on two important subcomponents: stress tracking and comedy content delivery.
+		</p>
+		<br>
+		<br>
+		<hr>
+		<h2>Stress Tracking</h2>
+		<p>
+		In order to measure a person's stress, we used a Microsoft Band 2 that could track health measurements of a user. From the mBand, we collected heart rate, RR Interval (Heart Rate Variability), and GSR (Galvanic Skin Response) data of a user as they went about their data. We chose these metrics specifically because they had been used as stress indicators in past research and proved successful in stress tracking studies.
+		<br>
+		With a suitable way to measure a person's health metrics, we devised an equation to measure a person's stress level. What we found was that this stress equation needed to be tailored to each individual user; for example, one user may have a naturally high heart rate while another a naturally low. Our solution was to pre-measure a user's resting health metrics. These metrics would set a low threshold value for indication that a user was calm. The stress equation would then check if a user consistently surpassed a certain percentage higher of that resting rate in the health metrics. If the user did, our system would indicate that the user was stressed.
+		</p>
+
+		<br>
+		<br>
+		<hr>
+		<h2>Content Delivery</h2>
+		<p>
+		With a system to determine when a user is stressed in place, we next focused on an automated comedy delivery system. We first researched what type of comedy content would be able to best reduce stress in universal demographic range. What we found was that text-based comedy, such as jokes or tweets, were too short to elicit a response. The same applied to images; users might get a brief chuckle, but their overall stress level did not decrease. With videos, however, we saw markedly lower stress metrics for the duration of the video and post-video. Because of this, we chose videos as our comedy delivery content.  
+		</p>
+
+		</div>
+		</div>
+
+	</div>
+	<hr>
+
+	<div class="segment">
+		<div class="q"><h3>The Pitch</h3></div>
+		<iframe src="https://docs.google.com/presentation/d/1JxDEeM6tVcq-VA7tjmnJnh56Qqo8Nmt_8cdS2_ftmKU/embed?start=false&loop=true&delayms=3000" frameborder="0" width="700" height="425" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 	</div>
 
-	<div class="footer">WhatAJoke Team: Shawn, Sam, Dino. All rights reserved.</div>
+
+	<hr>
+	<div id="creators">
+	<div class="q"><h3>Creators</h3></div>
+	
+	<div class="creator">
+	<h2>Shawn</h2>
+	<p>
+	App Development
+	<br>
+	<br>
+	Data Analysis
+	<br>
+	<br>
+	Stress Equation Formulation
+	<br>
+	<br>
+	Video Editing
+	</p>
+	</div>
+
+	<div class="creator">
+	<h2>Dino</h2>
+	<p>
+	App Development
+	<br>
+	<br>
+	Sensor Integration
+	<br>
+	<br>
+	Data Collection
+	<br>
+	<br>
+	Website Development
+	<br>
+	<br>
+	Main Guinea Pig
+	</p>
+	</div>
+
+	<div class="creator">
+	<h2>Sam</h2>
+	<p>App Development
+	<br>
+	<br>
+	Front-end Design
+	<br>
+	<br>
+	Video API Integration
+	<br>
+	<br>
+	Data Analysis
+	</p>
+	</div>
+
+
+
+	</div>
+
+
+
+	<div class="footer">WhatAJoke Team: Shawn, Sam, Dino. All rights reserved.
+	</div>
+
+
 
 </body>
 </html>
